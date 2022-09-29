@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Interview Prepartion Day 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        h2{
+            color: coral;
+        }
+        p, li{
+            font-size: larger;
+        }
+        h3{
+            color: lightcoral;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Day 1</h1>
+    <h2>1.What is Virtual DOM?</h2>
+    <p>Virtual DOM is the in-memory representation of Real DOM.React keeps a lightweight representation of the real DOM
+        in the memory, and that is known as the virtual DOM. When the state of an object changes, virtual DOM changes
+        only that object in the real DOM, rather than updating all the objects.</p>
+    <hr>
+    <h2>2.What is SPA?</h2>
+    <p>SPA stands for Single Page Application. It is a very common way of programming websites these days. The idea is
+        that the website loads all the HTML/JS the first time you visit. When you then navigate, the browser will only
+        rerender the content without refreshing the website.</p>
+    <hr>
+    <h2>3.What is difference between Functional and Class component?</h2>
+    <h3>Functional Component</h3>
+    <ol>
+        <li>
+            It is used to create a dumb or stateless components.
+        </li>
+        <li>
+            Functional component don't have any lifecycle methods they have hooks like UseState, UseEffect.
+        </li>
+        <li>Complete constructor structure is not required so they are easy to handle.
+        </li>
+        <li>They do not have state variables.</li>
+    </ol>
+    <h3>Class Component</h3>
+    <ol>
+        <li>Class Components is used when we are doing data operations or server calls.</li>
+        <li>Class Components have lifecycle methods.</li>
+        <li>Complete constructor structure is required in class components.</li>
+        <li>It contains state variables.</li>
+    </ol><hr>
+    <h2> 4.What does mean by state and its use in react?</h2>
+    <p>The state is an instance of react component class can be defined as an object of a set of observable properties
+        that control the behaviour of the component.</p><hr>
+    <h2>5.What is JSX and why do we use it instead of js?</h2>
+    <p>JS is simply a scripting language adding functionality into a webpage but JSX is an additional to the JS syntax
+        which is a mixture of both HTML and JavaScript.Both JS and JSX are interchangeable but JSX makes the code easier
+        to understand for users.</p><hr>
+    <h2>6.What is package.json ?</h2>
+    <ul>
+        <li>Package.json is the heart of any node project.</li>
+        <li>It records important metadata about the project</li>
+        <li>which is required before publishing to NPM.</li>
+    </ul>
+</body>
+
+</html>
